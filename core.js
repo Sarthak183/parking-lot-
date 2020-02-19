@@ -6,8 +6,7 @@ class Entry{
         this.licensePlate = licensePlate;
         this.entryDate = entryDate;
         this.exitDate = exitDate;
-    }
-}
+    }}
 //UI Class: Handle User Interface Tasks
 class UI{
     static displayEntries(){
