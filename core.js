@@ -76,6 +76,7 @@ class Store{
             entries = [];
         }
         else{
+            
             entries = JSON.parse(localStorage.getItem('entries'));
         }
         return entries;
