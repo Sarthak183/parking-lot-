@@ -11,7 +11,6 @@ class Entry{
 //UI Class: Handle User Interface Tasks
 class UI{
     static displayEntries(){
-   
         const entries = Store.getEntries();
         entries.forEach((entry) => UI.addEntryToTable(entry));
     }
