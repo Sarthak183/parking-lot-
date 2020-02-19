@@ -119,7 +119,6 @@ class Store{
         UI.clearInput();
 
         UI.showAlert('Car successfully added to the parking lot','success');
-
     });
 //Event Remove
     document.querySelector('#tableBody').addEventListener('click',(e)=>{
